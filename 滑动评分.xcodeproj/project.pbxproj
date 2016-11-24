@@ -15,6 +15,8 @@
 		16D702AC1DE416FA00FF3DEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D702AA1DE416FA00FF3DEB /* LaunchScreen.storyboard */; };
 		16D702B71DE416FB00FF3DEB /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D702B61DE416FB00FF3DEB /* ____Tests.m */; };
 		16D702C21DE416FB00FF3DEB /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D702C11DE416FB00FF3DEB /* ____UITests.m */; };
+		16D702D11DE4171700FF3DEB /* RateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D702D01DE4171700FF3DEB /* RateView.m */; };
+		16D702D41DE4172F00FF3DEB /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D702D31DE4172F00FF3DEB /* MenuView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		16D702BD1DE416FB00FF3DEB /* 滑动评分UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "滑动评分UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D702C11DE416FB00FF3DEB /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		16D702C31DE416FB00FF3DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D702CF1DE4171700FF3DEB /* RateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateView.h; sourceTree = "<group>"; };
+		16D702D01DE4171700FF3DEB /* RateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateView.m; sourceTree = "<group>"; };
+		16D702D21DE4172E00FF3DEB /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		16D702D31DE4172F00FF3DEB /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				16D702AA1DE416FA00FF3DEB /* LaunchScreen.storyboard */,
 				16D702AD1DE416FB00FF3DEB /* Info.plist */,
 				16D7029C1DE416FA00FF3DEB /* Supporting Files */,
+				16D702CF1DE4171700FF3DEB /* RateView.h */,
+				16D702D01DE4171700FF3DEB /* RateView.m */,
+				16D702D21DE4172E00FF3DEB /* MenuView.h */,
+				16D702D31DE4172F00FF3DEB /* MenuView.m */,
 			);
 			path = "滑动评分";
 			sourceTree = "<group>";
@@ -273,9 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16D702D11DE4171700FF3DEB /* RateView.m in Sources */,
 				16D702A41DE416FA00FF3DEB /* ViewController.m in Sources */,
 				16D702A11DE416FA00FF3DEB /* AppDelegate.m in Sources */,
 				16D7029E1DE416FA00FF3DEB /* main.m in Sources */,
+				16D702D41DE4172F00FF3DEB /* MenuView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

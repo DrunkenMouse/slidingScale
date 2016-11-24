@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "RateView.h"
+#import "MenuView.h"
 
 @interface ViewController ()
 
@@ -16,14 +18,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    rateView.rate = 1;
+    slider.value = 1;
+
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)sliderValueChange:(id)sender {
+    
+     rateView.rate = slider.value;
 }
-
 
 @end
